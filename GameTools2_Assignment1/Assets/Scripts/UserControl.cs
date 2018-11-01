@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UserControl : MonoBehaviour
 {
@@ -26,7 +27,13 @@ public class UserControl : MonoBehaviour
 
 
         m_character.Move(m_turn, m_forward, m_jump);
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene("Scene001");
+        }
     }
+
 
    
 

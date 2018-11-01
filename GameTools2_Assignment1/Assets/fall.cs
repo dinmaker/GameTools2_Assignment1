@@ -1,16 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class fall : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private GameObject m_player;
+
+    
+	void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "Player")
+        {
+            SceneManager.LoadScene("Scene001");
+        }
+    }
 }
