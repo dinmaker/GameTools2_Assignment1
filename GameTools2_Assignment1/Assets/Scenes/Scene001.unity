@@ -408,9 +408,9 @@ MonoBehaviour:
     m_MaxSpeed: 300
     m_AccelTime: 0.1
     m_DecelTime: 0.1
-    m_InputAxisName: Mouse X
+    m_InputAxisName: 
     m_InputAxisValue: 0
-    m_InvertAxis: 1
+    m_InvertAxis: 0
   m_LegacyRadius: 3.4028235e+38
   m_LegacyHeightOffset: 3.4028235e+38
   m_LegacyHeadingBias: 3.4028235e+38
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 53
+    FieldOfView: 96
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -478,7 +478,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 305512058}
-  m_LocalRotation: {x: 0.91125506, y: 0.007215571, z: -0.00500259, w: 0.41174898}
+  m_LocalRotation: {x: 0.006266526, y: -0.07422647, z: 0.99709433, w: 0.015936304}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -526,7 +526,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 53
+    FieldOfView: 96
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -538,7 +538,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 438844606}
-  m_LocalRotation: {x: 0.94024235, y: 0.008654949, z: -0.004291909, w: 0.34036884}
+  m_LocalRotation: {x: 0.005959511, y: -0.02471754, z: 0.99953836, w: 0.016627805}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -834,9 +834,9 @@ MonoBehaviour:
     m_MaxSpeed: 300
     m_AccelTime: 0.1
     m_DecelTime: 0.1
-    m_InputAxisName: Mouse X
+    m_InputAxisName: 
     m_InputAxisValue: 0
-    m_InvertAxis: 1
+    m_InvertAxis: 0
   m_LegacyRadius: 3.4028235e+38
   m_LegacyHeightOffset: 3.4028235e+38
   m_LegacyHeadingBias: 3.4028235e+38
@@ -937,8 +937,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 975452888}
-  m_LocalRotation: {x: -0.0005628227, y: 0.95274454, z: -0.303767, w: -0.0017652547}
-  m_LocalPosition: {x: -0.55016965, y: 3, z: -42.50025}
+  m_LocalRotation: {x: -0.0021961436, y: 0.9484176, z: -0.31694803, w: -0.0065716156}
+  m_LocalPosition: {x: -0.55016965, y: 2.9999998, z: -42.500248}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 438844608}
@@ -976,7 +976,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 76
+  field of view: 53
   orthographic: 0
   orthographic size: 10
   m_Depth: 0
@@ -1044,7 +1044,7 @@ MonoBehaviour:
   m_Follow: {fileID: 873782193}
   m_CommonLens: 1
   m_Lens:
-    FieldOfView: 53
+    FieldOfView: 96
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -1064,7 +1064,7 @@ MonoBehaviour:
     m_DecelTime: 0.1
     m_InputAxisName: 
     m_InputAxisValue: 0
-    m_InvertAxis: 1
+    m_InvertAxis: 0
   m_Heading:
     m_HeadingDefinition: 2
     m_VelocityFilterStrength: 4
@@ -1377,7 +1377,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 53
+    FieldOfView: 96
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -1389,7 +1389,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1695409636}
-  m_LocalRotation: {x: 0.9263513, y: 0.007987618, z: -0.0046784994, w: 0.37654707}
+  m_LocalRotation: {x: 0.006135827, y: -0.04954713, z: 0.9986181, w: 0.016408779}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1486,9 +1486,9 @@ MonoBehaviour:
     m_MaxSpeed: 300
     m_AccelTime: 0.1
     m_DecelTime: 0.1
-    m_InputAxisName: Mouse X
+    m_InputAxisName: 
     m_InputAxisValue: 0
-    m_InvertAxis: 1
+    m_InvertAxis: 0
   m_LegacyRadius: 3.4028235e+38
   m_LegacyHeightOffset: 3.4028235e+38
   m_LegacyHeadingBias: 3.4028235e+38
