@@ -28,4 +28,12 @@ public class Character : MonoBehaviour
         }
 
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Enemy")
+        {
+            m_animator.SetTrigger("Strike");
+        }
+    }
 }

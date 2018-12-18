@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bloosSpawn : MonoBehaviour
+public class ObjectPooler: MonoBehaviour
 {
 
     [System.Serializable]
@@ -13,7 +13,7 @@ public class bloosSpawn : MonoBehaviour
         public int size;
     }
 
-    public static bloosSpawn Instance;
+    public static ObjectPooler Instance;
 
     [SerializeField] List<Pool> pools;
 
