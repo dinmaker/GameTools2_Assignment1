@@ -17,7 +17,6 @@ public class NPCcontrol : MonoBehaviour {
         {
             Zanimator.SetTrigger("dead");
             gameObject.GetComponent<Collider>().isTrigger = true;
-            gameObject.GetComponent<Rigidbody>().detectCollisions = false;
             gameObject.GetComponent<Rigidbody>().isKinematic = true;
         }
     }
