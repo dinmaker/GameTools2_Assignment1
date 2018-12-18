@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class NPCcontrol : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private Animator Zanimator;
+
+    void Start()
+    {
+        Zanimator = GetComponent<Animator>();
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Zanimator.SetTrigger("dead");
+            gameObject.GetComponent<Collider>().isTrigger = true;
+            gameObject.GetComponent<Rigidbody>().detectCollisions = false;
+            gameObject.GetComponent<Rigidbody>().isKinematic = true;
+        }
+    }
 }
