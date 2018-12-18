@@ -695,7 +695,7 @@ MonoBehaviour:
   pools:
   - tag: blood
     prefab: {fileID: 1830696901007788, guid: 82b43e37857fb07499bf71fe92f891ec, type: 2}
-    size: 100
+    size: 10
 --- !u!1 &975452888
 GameObject:
   m_ObjectHideFlags: 0
